@@ -1,5 +1,5 @@
 # QLChooseTableView
-从底部弹出来的tableView，单行文字，固定高度，点击背景可以收回隐藏。
+从底部弹出来的tableView，单行文字，固定cell高度，点击背景可以收回隐藏。
 
 
 把Base、BaseChooseTableView、Masonry三个文件夹直接拖入你的工程。
