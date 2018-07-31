@@ -1,8 +1,8 @@
 # QLChooseTableView
-从底部弹出来的tableView
-[图片]
+从底部弹出来的tableView，单行文字，固定高度，点击背景可以收回隐藏。
 
 
+把Base、BaseChooseTableView、Masonry三个文件夹直接拖入你的工程。
 1.只需要在用到的页面导入： #import "BaseChooseTool.h"
 2.遵循代理： BaseChooseToolDelegate
 
@@ -17,3 +17,8 @@ _chooseToolView.mDelegate = self;
 - (void)selectRow:(NSInteger)row{
     NSLog(@"\n ---select row: %ld---- \n", row);
 }
+
+
+附：Base文件夹只是对cell的一个封装，只是加了一个底部自定义分割线。
+BaseChooseTableView文件夹就是最主要的文件了，源码很简单随便看随便改。
+Masonry文件夹就是布局用的，如果你的项目已经导了就不需要这个文件了。
