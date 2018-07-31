@@ -11,6 +11,7 @@
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define kMaxCount 5 //最大显cell示个数，用于确定tableView高度，其余的滑动显示
 
 @implementation BaseChooseTool
 
@@ -48,8 +49,8 @@
     //修改数据源 刷新
     _chooseView.dataArray = dataArray;
     _tableViewHeight = dataArray.count * 50;
-    if (dataArray.count > 5) {
-        _tableViewHeight = 5 * 50;
+    if (dataArray.count > kMaxCount) {
+        _tableViewHeight = kMaxCount * 50;
     }
     [_chooseView.chooseTableView reloadData];
     
