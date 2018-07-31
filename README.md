@@ -1,6 +1,6 @@
 # QLChooseTableView
 从底部弹出来的tableView，单行文字，固定cell高度，点击背景可以收回隐藏。
-
+因为一开始是自己用的，没想到分享出来，所以封装得不好，很多写死的东西，自己看看随便改~
 
 把Base、BaseChooseTableView、Masonry三个文件夹直接拖入你的工程。
 1.只需要在用到的页面导入： #import "BaseChooseTool.h"
