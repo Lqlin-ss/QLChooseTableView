@@ -7,6 +7,7 @@
 
 1.只需要在用到的页面导入：
 ``` #import "BaseChooseTool.h" ```
+
 2.遵循代理：
 ```BaseChooseToolDelegate```
 
