@@ -2,6 +2,8 @@
 从底部弹出来的tableView，单行文字，固定cell高度，点击背景可以收回隐藏。
 因为一开始是自己用的，没想到分享出来，所以封装得不好，很多写死的东西，自己看看随便改~
 
+
+
 ### 使用方法
 把Base、BaseChooseTableView、Masonry三个文件夹直接拖入你的工程。
 
@@ -32,3 +34,8 @@ _chooseToolView.mDelegate = self;
 附：Base文件夹只是对cell的一个封装，只是加了一个底部自定义分割线。
 BaseChooseTableView文件夹就是最主要的文件了，源码很简单随便看随便改。
 Masonry文件夹就是布局用的，如果你的项目已经导了就不需要这个文件了。
+
+
+###效果图
+
+![](https://github.com/Lqlin-ss/QLChooseTableView/blob/master/B6E77DA293ED48708E5D98B542C059C9.png?raw=true)
